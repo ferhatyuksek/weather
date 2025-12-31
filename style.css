@@ -1,0 +1,169 @@
+body {
+  background-image: url("img/unnamed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-image 0.8s ease-in-out;
+}
+
+#container {
+  border-radius: 40px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#state {
+  color: #fff;
+  font-size: 75px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+#city {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+#temp {
+  color: #fff;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 100px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#input {
+  width: 110%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: 8px;
+}
+
+#searchButton {
+  padding: 8px 20px;
+  border-radius: 12px;
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#searchButton:hover {
+  color: #fff;
+  transform: scale(1.05);
+  background: rgba(143, 8, 247, 0.927);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+#container2 {
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 450px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#container2 div {
+  flex: 1;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#container2 div:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#container2 div::before {
+  display: block;
+  font-weight: 350;
+  letter-spacing: 4px;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+#felt::before {
+  content: "HİSSEDİLEN";
+}
+#moisture::before {
+  content: "NEM";
+}
+#wind::before {
+  content: "RÜZGAR";
+}
+
+#container {
+  display: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
+  padding: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#locationButton {
+  padding: 8px 20px;
+  border-radius: 12px;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#locationButton:hover {
+  background: rgba(143, 8, 247, 0.927);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+#container2 {
+  display: none;
+}
+
+body[style] #container2 {
+  display: flex !important;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 15px;
+}
