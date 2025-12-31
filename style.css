@@ -167,3 +167,26 @@ body[style] #container2 {
   padding: 20px;
   margin-top: 15px;
 }
+
+@media (max-width: 480px) {
+    #form {
+        width: 90%;
+    }
+
+    #input {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    #state {
+        font-size: 40px;
+    }
+
+    #city {
+        font-size: 32px;
+    }
+
+    #temp {
+        font-size: 30px;
+    }
+}
