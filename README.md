@@ -16,4 +16,4 @@
 4. Hava durumuna göre arayüz dinamik olarak güncellenir
 
 ## Canlı Demo
-https://github.com/ferhatyuksek/weather.git
+https://ferhatyuksek.github.io/weather/
