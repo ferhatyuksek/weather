@@ -212,4 +212,14 @@ body[style] #container2 {
     #container2{
       width: 80%;
     } 
+
+    #container2 div::before {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    letter-spacing: 0.6px;
+    }
+
+    #container2 div {
+        font-size: 0.9rem;
+    }
 }
