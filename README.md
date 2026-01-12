@@ -11,6 +11,7 @@
 
 ## 🖼️ Önizleme
 <img width="1705" height="853" alt="weather" src="https://github.com/user-attachments/assets/7d1fe081-ab91-4c27-b5e1-32ccef7181b0" />
+
 ## Nasıl Çalışır
 1. Şehir adını girip **Ara** butonuna basın
 2. Ya da **Cihaz Konumunu Al** butonunu kullanın
