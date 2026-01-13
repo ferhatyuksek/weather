@@ -109,7 +109,7 @@ function voiceNarration(message) {
   const synth = window.speechSynthesis;
   const utterThis = new SpeechSynthesisUtterance(message);
   utterThis.lang = 'tr-TR';
-  utterThis.rate = 1.5;
+  utterThis.rate = 0.8;
   utterThis.pitch = -5
   synth.speak(utterThis);
 }
