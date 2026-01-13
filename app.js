@@ -113,6 +113,3 @@ function voiceNarration(message) {
   utterThis.pitch = -5
   synth.speak(utterThis);
 }
-
-
-
